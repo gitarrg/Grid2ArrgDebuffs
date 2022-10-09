@@ -1,0 +1,6 @@
+<Ui xmlns='http://www.blizzard.com/wow/ui/'>
+	<Script file='main.lua' />
+	<Script file='Grid2Options.lua' />
+	<Script file='StandaloneGui.lua' />
+	<Include file='widgets\files.xml' />
+</Ui>

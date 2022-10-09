@@ -1,0 +1,1897 @@
+		["ArrgRaidDebuffs"] = {
+			["profiles"] = {
+				["Backup_2022_08_14"] = {
+					["groups"] = {
+						[""] = {
+						},
+						["Raid/T29_Sepulcher/01 Vigilant Guardian"] = {
+							["icon"] = "4254081",
+							["order"] = "01",
+						},
+						["Raid/Fated"] = {
+						},
+						["Class"] = {
+						},
+						["Dungeons/SL"] = {
+							["order"] = "30",
+						},
+						["Raid"] = {
+							["order"] = "10",
+						},
+						["Raid/T29_Sepulcher/05_Pantheon"] = {
+							["icon"] = "4254087",
+							["order"] = "05",
+						},
+						["Raid/T29_Sepulcher"] = {
+							["icon"] = "4254074",
+							["order"] = "29",
+						},
+						["Raid/T29_Sepulcher/03_Xymox"] = {
+							["icon"] = "3614360",
+							["order"] = "03",
+						},
+						["Dungeons/SL/Halls of Atoment/Halkias"] = {
+							["order"] = "1",
+						},
+						["Dungeons/SL/Halls of Atoment"] = {
+							["icon"] = "3601526",
+						},
+						["Class/Druid"] = {
+						},
+						["Dungeons"] = {
+							["order"] = "20",
+						},
+						["Dungeons/SL/Mechagon Workshop"] = {
+						},
+						["Dungeons/SL/Halls of Atoment/Trash"] = {
+							["order"] = "99",
+						},
+						["Dungeons/Affixes"] = {
+							["order"] = "99",
+							["icon"] = "525134",
+						},
+						["Other"] = {
+						},
+						["Raid/T29_Sepulcher/04_Dausegne"] = {
+							["icon"] = "4254078",
+							["order"] = "04",
+						},
+						["Dungeons/SL/Mists of Tirna Scithe"] = {
+							["icon"] = "3601531",
+						},
+					},
+					["debuffs"] = {
+						[361966] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29_Sepulcher/04_Dausegne",
+							["status"] = 1,
+						},
+						[294180] = {
+							["group"] = "Dungeons/SL/Mechagon Workshop",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[362803] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29_Sepulcher/03_Xymox",
+							["status"] = 2,
+						},
+						[325224] = {
+							["status"] = 2,
+							["group"] = "Dungeons/SL/Mists of Tirna Scithe",
+							["enabled"] = true,
+						},
+						[365041] = {
+							["group"] = "Raid/T29_Sepulcher/05_Pantheon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[360458] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29_Sepulcher/01 Vigilant Guardian",
+						},
+						[325021] = {
+							["status"] = 2,
+							["group"] = "Dungeons/SL/Mists of Tirna Scithe",
+							["enabled"] = true,
+						},
+						[124273] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = false,
+						},
+						[322486] = {
+							["status"] = 2,
+							["group"] = "Dungeons/SL/Mists of Tirna Scithe",
+							["enabled"] = true,
+						},
+						[361751] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29_Sepulcher/04_Dausegne",
+							["status"] = 1,
+						},
+						[285443] = {
+							["group"] = "Dungeons/SL/Mechagon Workshop",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[240443] = {
+							["group"] = "Dungeons/Affixes",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[361784] = {
+							["group"] = "Raid/T29_Sepulcher/05_Pantheon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[325701] = {
+							["group"] = "Dungeons/SL/Halls of Atoment",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[362383] = {
+							["group"] = "Raid/T29_Sepulcher/05_Pantheon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[362352] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29_Sepulcher/05_Pantheon",
+							["status"] = 2,
+						},
+						[124274] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = false,
+						},
+						[325876] = {
+							["status"] = 2,
+							["group"] = "Dungeons/SL/Halls of Atoment",
+							["enabled"] = true,
+						},
+						[209858] = {
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[360259] = {
+							["group"] = "Raid/T29_Sepulcher/05_Pantheon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[292267] = {
+							["group"] = "Dungeons/SL/Mechagon Workshop",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[264689] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = true,
+						},
+						[306474] = {
+							["enabled"] = false,
+							["group"] = "Other",
+							["status"] = 1,
+						},
+						[226512] = {
+							["status"] = 1,
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+						},
+						[360687] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29_Sepulcher/05_Pantheon",
+							["status"] = 2,
+						},
+						[124275] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = false,
+						},
+						[373552] = {
+							["status"] = 1,
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+						},
+						[322557] = {
+							["status"] = 2,
+							["group"] = "Dungeons/SL/Mists of Tirna Scithe",
+							["enabled"] = true,
+						},
+						[358164] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = false,
+						},
+						[206151] = {
+							["status"] = 1,
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = false,
+						},
+						[113942] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = false,
+						},
+						[240559] = {
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[352562] = {
+							["status"] = 1,
+							["group"] = "Other",
+							["enabled"] = false,
+						},
+						[373391] = {
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[321828] = {
+							["status"] = 2,
+							["group"] = "Dungeons/SL/Mists of Tirna Scithe",
+							["enabled"] = true,
+						},
+						[369505] = {
+							["group"] = "Raid/Fated",
+							["enabled"] = true,
+							["status"] = 1,
+						},
+						[362614] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29_Sepulcher/03_Xymox",
+							["status"] = 2,
+						},
+						[291928] = {
+							["group"] = "Dungeons/SL/Mechagon Workshop",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+					},
+				},
+				["Arrg_v2_multibar2"] = {
+					["groups"] = {
+						[""] = {
+						},
+						["Raid/T28 Sanctum of Domination/07) Guardian"] = {
+							["icon"] = "4062733",
+							["order"] = "7",
+						},
+						["Raid/T28 Sanctum of Domination/04) Remant"] = {
+							["order"] = "4",
+							["icon"] = "4062736",
+						},
+						["Raid/T29 Sepulcher/11) Jailer"] = {
+							["order"] = "11",
+							["icon"] = "4254080",
+						},
+						["Raid"] = {
+							["order"] = "10",
+						},
+						["Raid/T29 Sepulcher/10) Rygelon"] = {
+							["order"] = "10",
+							["icon"] = "4254077",
+						},
+						["Raid/T26 Castle Nathria/03) Sun King's Salvation"] = {
+							["icon"] = "3614365",
+							["order"] = "3",
+						},
+						["Dungeons/SL/Halls of Atoment"] = {
+							["icon"] = "3601526",
+						},
+						["Raid/T28 Sanctum of Domination"] = {
+							["icon"] = "4062765",
+							["order"] = "28",
+						},
+						["Raid/T26 Castle Nathria/7) Council of Blood"] = {
+							["order"] = "7",
+							["icon"] = "3614367",
+						},
+						["Raid/T26 Castle Nathria/6) Lady Inerva Darkvein"] = {
+							["icon"] = "3614366",
+							["order"] = "6",
+						},
+						["Dungeons/SL/Mists of Tirna Scithe"] = {
+							["icon"] = "3601531",
+						},
+						["Dungeons/Mechagon Junkyard"] = {
+							["order"] = "8.31",
+							["icon"] = "3024540",
+						},
+						["Raid/T28 Sanctum of Domination/09) KT"] = {
+							["order"] = "9",
+							["icon"] = "4062734",
+						},
+						["Dungeons/Mechagon Workshop"] = {
+							["order"] = "8.32",
+							["icon"] = "2620862",
+						},
+						["Class"] = {
+						},
+						["Raid/T28 Sanctum of Domination/10) Sylvanas"] = {
+							["order"] = "10",
+							["icon"] = "4062738",
+						},
+						["Other/ClassDebuffs"] = {
+						},
+						["Other/Class"] = {
+						},
+						["Raid/T26 Castle Nathria/1) Shriekwing"] = {
+							["icon"] = "3614368",
+							["order"] = "1",
+						},
+						["Raid/T26 Castle Nathria/8) Sludgefist"] = {
+							["order"] = "8",
+							["icon"] = "3670322",
+						},
+						["Dungeons/SL/Halls of Atoment/Halkias"] = {
+							["order"] = "1",
+						},
+						["Dungeons/Tazavesh Streets/02 Menagerie"] = {
+						},
+						["Dungeons/Tazavesh Streets/03 Mailroom"] = {
+						},
+						["Raid/T29 Sepulcher/1) Vigilant Guardian"] = {
+							["order"] = "1",
+							["icon"] = "4254081",
+						},
+						["Dungeons/Tazavesh Streets/01 Zophex"] = {
+						},
+						["Raid/T29 Sepulcher/06) Lihuvim"] = {
+							["order"] = "06",
+							["icon"] = "4254089",
+						},
+						["Dungeons/Karazhan: Upper"] = {
+							["order"] = "7.32",
+							["icon"] = "135226",
+						},
+						["Dungeons/Tazavesh"] = {
+						},
+						["Other/Lust"] = {
+						},
+						["Raid/T28 Sanctum of Domination/1) Tarragrue"] = {
+							["order"] = "1",
+						},
+						["Raid/T29 Sepulcher/04) Dausegne"] = {
+							["icon"] = "4254078",
+							["order"] = "04",
+						},
+						["Raid/T28 Sanctum of Domination/08) Fatescribe"] = {
+							["order"] = "8",
+							["icon"] = "4062732",
+						},
+						["Raid/T26 Castle Nathria/4) Xymox"] = {
+							["order"] = "4",
+							["icon"] = "3614360",
+						},
+						["Raid/T29 Sepulcher"] = {
+							["icon"] = "4254074",
+							["order"] = "29",
+						},
+						["Dungeons/Karazhan: Lower"] = {
+							["icon"] = "1530372",
+							["order"] = "7.31",
+						},
+						["Dungeons/Halls of Atoment"] = {
+							["icon"] = "3601526",
+							["order"] = "9.0",
+						},
+						["Dungeons/Iron Docks"] = {
+							["icon"] = "1003154",
+							["order"] = "9.51",
+						},
+						["Raid/T28 Sanctum of Domination/02) The Eye"] = {
+							["order"] = "2",
+						},
+						["Raid/T29 Sepulcher/08) Anduin"] = {
+							["order"] = "08",
+							["icon"] = "4254075",
+						},
+						["Other"] = {
+						},
+						["Raid/T26 Castle Nathria/5) Hungering Destroyer"] = {
+							["icon"] = "3614363",
+							["order"] = "5",
+						},
+						["Raid/T28 Sanctum of Domination/05) Soulrender"] = {
+							["order"] = "5",
+							["icon"] = "4062737",
+						},
+						["Raid/T28 Sanctum of Domination/03) The Nine"] = {
+							["order"] = "3",
+							["icon"] = "4062741",
+						},
+						["Raid/T26 Castle Nathria/2) Huntsman Altimor"] = {
+							["order"] = "2",
+							["icon"] = "3614359",
+						},
+						["Dungeons/SL/Mechagon Workshop"] = {
+						},
+						["Raid/T29 Sepulcher/01) Vigilant Guardian"] = {
+							["icon"] = "4254081",
+							["order"] = "01",
+						},
+						["Dungeons/Tazavesh Streets"] = {
+							["icon"] = "4062727",
+							["order"] = "9.21",
+						},
+						["Raid/T29 Sepulcher/07) Halondrus"] = {
+							["order"] = "07",
+							["icon"] = "4254083",
+						},
+						["Dungeons/Tazavesh Gambit"] = {
+							["icon"] = "4062727",
+							["order"] = "9.25",
+						},
+						["Dungeons/SL"] = {
+							["order"] = "30",
+						},
+						["Other/Cov"] = {
+						},
+						["Raid/T29 Sepulcher/05) Pantheon"] = {
+							["icon"] = "4254087",
+							["order"] = "05",
+						},
+						["Raid/T28 Sanctum of Domination/06) Painsmith"] = {
+							["order"] = "6",
+							["icon"] = "4062735",
+						},
+						["Raid/T29 Sepulcher/03) Xymox"] = {
+							["icon"] = "3614360",
+							["order"] = "03",
+						},
+						["Raid/T26 Castle Nathria/3) Sun King's Salvation"] = {
+							["icon"] = "3614365",
+							["order"] = "3",
+						},
+						["Dungeons/Tazavesh/01 Zophex"] = {
+						},
+						["Class/Druid"] = {
+						},
+						["Raid/T26 Castle Nathria/9) Stone Legion Generals"] = {
+							["order"] = "9",
+							["icon"] = "3614362",
+						},
+						["Dungeons"] = {
+							["order"] = "20",
+						},
+						["Raid/T26 Castle Nathria"] = {
+							["order"] = "26",
+							["icon"] = "3614361",
+						},
+						["Raid/T26 Castle Nathria/10) Sire Denathrius"] = {
+							["icon"] = "3670321",
+						},
+						["Other/Items"] = {
+						},
+						["Raid/Fated"] = {
+							["icon"] = "3601566",
+						},
+						["Dungeons/Mists of Tirna Scithe"] = {
+							["icon"] = "3601531",
+							["order"] = "9.0",
+						},
+						["Raid/T29 Sepulcher/09) Lords_of_Dread"] = {
+							["order"] = "09",
+							["icon"] = "4254079",
+						},
+						["Dungeons/SL/Halls of Atoment/Trash"] = {
+							["order"] = "99",
+						},
+						["Dungeons/Affixes"] = {
+							["order"] = "99",
+							["icon"] = "525134",
+						},
+					},
+					["debuffs"] = {
+						[344907] = {
+							["group"] = "Other/Items",
+							["enabled"] = false,
+						},
+						[358705] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[97821] = {
+							["enabled"] = false,
+							["group"] = "Other/Class",
+						},
+						[351680] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[344655] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[325876] = {
+							["group"] = "Dungeons/Halls of Atoment",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[360241] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[357431] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = false,
+						},
+						[227325] = {
+							["group"] = "Dungeons/Karazhan: Lower",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[374295] = {
+							["enabled"] = false,
+							["group"] = "Dungeons/Affixes",
+						},
+						[322557] = {
+							["group"] = "Dungeons/Mists of Tirna Scithe",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[362543] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["enabled"] = false,
+						},
+						[264689] = {
+							["group"] = "Other/Lust",
+							["enabled"] = false,
+							["status"] = 1,
+						},
+						[343895] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+							["enabled"] = true,
+						},
+						[372639] = {
+							["enabled"] = false,
+							["group"] = "Raid/Fated",
+						},
+						[346962] = {
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[366381] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[355778] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[80354] = {
+							["enabled"] = false,
+							["group"] = "Other/Lust",
+							["status"] = 1,
+						},
+						[360378] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[361784] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+							["status"] = 1,
+						},
+						[123981] = {
+							["enabled"] = false,
+							["group"] = "Other/Class",
+							["status"] = 1,
+						},
+						[364851] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Other/Class",
+						},
+						[326271] = {
+							["group"] = "Raid/T26 Castle Nathria/4) Xymox",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[347350] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/7) Council of Blood",
+							["enabled"] = true,
+						},
+						[299572] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Junkyard",
+							["status"] = 2,
+						},
+						[354634] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = true,
+						},
+						[366132] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[362172] = {
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[347481] = {
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[227524] = {
+							["group"] = "Dungeons/Karazhan: Upper",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[306474] = {
+							["enabled"] = false,
+							["group"] = "Other/Items",
+							["status"] = 1,
+						},
+						[355786] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[348760] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+						},
+						[339690] = {
+							["enabled"] = true,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[364985] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[355915] = {
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[360259] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+							["status"] = 1,
+						},
+						[332794] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+						},
+						[339693] = {
+							["enabled"] = true,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[348508] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[358090] = {
+							["enabled"] = false,
+							["group"] = "Other",
+							["status"] = 1,
+						},
+						[332797] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = true,
+						},
+						[357581] = {
+							["enabled"] = false,
+							["group"] = "Other/Items",
+							["status"] = 1,
+						},
+						[326538] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/6) Lady Inerva Darkvein",
+							["enabled"] = true,
+						},
+						[356943] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Tazavesh Streets",
+						},
+						[335354] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/8) Sludgefist",
+							["enabled"] = true,
+						},
+						[240559] = {
+							["enabled"] = true,
+							["status"] = 1,
+							["group"] = "Dungeons/Affixes",
+						},
+						[227848] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Karazhan: Lower",
+						},
+						[373552] = {
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+							["status"] = 1,
+						},
+						[362055] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[371381] = {
+							["enabled"] = false,
+							["group"] = "Raid/Fated",
+						},
+						[209261] = {
+							["group"] = "Other/Class",
+							["enabled"] = false,
+						},
+						[360012] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 1,
+							["enabled"] = true,
+						},
+						[241774] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Karazhan: Lower",
+						},
+						[41425] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Other/Class",
+						},
+						[124273] = {
+							["status"] = 1,
+							["group"] = "Other/Class",
+							["enabled"] = false,
+						},
+						[343024] = {
+							["group"] = "Raid/T26 Castle Nathria/1) Shriekwing",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[361548] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[227851] = {
+							["group"] = "Dungeons/Karazhan: Lower",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[363338] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[335361] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/8) Sludgefist",
+						},
+						[302274] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Junkyard",
+							["status"] = 2,
+						},
+						[325908] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/6) Lady Inerva Darkvein",
+							["enabled"] = true,
+						},
+						[124274] = {
+							["status"] = 1,
+							["group"] = "Other/Class",
+							["enabled"] = false,
+						},
+						[368961] = {
+							["group"] = "Raid/T29 Sepulcher/07) Halondrus",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[334852] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/2) Huntsman Altimor",
+						},
+						[338685] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[360403] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/1) Vigilant Guardian",
+						},
+						[362192] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[363598] = {
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[338687] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[350568] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[366665] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[124275] = {
+							["status"] = 1,
+							["group"] = "Other/Class",
+							["enabled"] = false,
+						},
+						[340860] = {
+							["group"] = "Raid/T26 Castle Nathria/4) Xymox",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[338689] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[335113] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/2) Huntsman Altimor",
+						},
+						[325021] = {
+							["group"] = "Dungeons/Mists of Tirna Scithe",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[366285] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[360281] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 2,
+						},
+						[368969] = {
+							["group"] = "Raid/T29 Sepulcher/07) Halondrus",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[354534] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = true,
+						},
+						[361817] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[360412] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/1) Vigilant Guardian",
+						},
+						[366545] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[360159] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/06) Lihuvim",
+						},
+						[361309] = {
+							["group"] = "Raid/T29 Sepulcher/07) Halondrus",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[368591] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 2,
+						},
+						[340870] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/4) Xymox",
+						},
+						[368592] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 2,
+						},
+						[240443] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Affixes",
+						},
+						[368082] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[362206] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[327842] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[362207] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[362081] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[350073] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = true,
+						},
+						[363232] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[362849] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/03) Xymox",
+						},
+						[350713] = {
+							["group"] = "Raid/T28 Sanctum of Domination/02) The Eye",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[355951] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Other/Items",
+						},
+						[355568] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[362850] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/03) Xymox",
+						},
+						[45181] = {
+							["enabled"] = false,
+							["group"] = "Other/Class",
+						},
+						[326699] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = true,
+						},
+						[345990] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 1,
+						},
+						[369880] = {
+							["group"] = "Raid/T29 Sepulcher/07) Halondrus",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[362088] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[322486] = {
+							["group"] = "Dungeons/Mists of Tirna Scithe",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[168398] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Iron Docks",
+						},
+						[351870] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[349954] = {
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[332197] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/8) Sludgefist",
+						},
+						[334498] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[360687] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+						},
+						[285443] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Workshop",
+						},
+						[353023] = {
+							["group"] = "Raid/T28 Sanctum of Domination/05) Soulrender",
+							["enabled"] = true,
+						},
+						[361966] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/04) Dausegne",
+						},
+						[350469] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[368738] = {
+							["group"] = "Raid/T29 Sepulcher/06) Lihuvim",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[206151] = {
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = false,
+							["status"] = 1,
+						},
+						[369505] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/Fated",
+						},
+						[347149] = {
+							["group"] = "Dungeons/Tazavesh Gambit",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[352387] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = false,
+						},
+						[362352] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+						},
+						[368740] = {
+							["group"] = "Raid/T29 Sepulcher/06) Lihuvim",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[363886] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[343063] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[342425] = {
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+							["enabled"] = true,
+						},
+						[329906] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = true,
+						},
+						[365293] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[209858] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Dungeons/Affixes",
+						},
+						[370404] = {
+							["enabled"] = false,
+							["group"] = "Raid/Fated",
+						},
+						[352392] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = false,
+						},
+						[365423] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[350732] = {
+							["group"] = "Raid/T28 Sanctum of Domination/07) Guardian",
+							["enabled"] = true,
+						},
+						[347283] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = true,
+						},
+						[365041] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+							["status"] = 1,
+						},
+						[362614] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/03) Xymox",
+						},
+						[365297] = {
+							["group"] = "Raid/T29 Sepulcher/07) Halondrus",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[334765] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+							["enabled"] = true,
+						},
+						[325184] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/6) Lady Inerva Darkvein",
+						},
+						[366703] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+						},
+						[363893] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[347286] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = true,
+							["status"] = 1,
+						},
+						[349458] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[347670] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[353931] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[356870] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[365174] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 2,
+						},
+						[358404] = {
+							["enabled"] = false,
+							["group"] = "Other/Cov",
+							["status"] = 1,
+						},
+						[334771] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+							["enabled"] = true,
+						},
+						[325701] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Halls of Atoment",
+						},
+						[326851] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = true,
+						},
+						[227493] = {
+							["group"] = "Dungeons/Karazhan: Lower",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[348314] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = false,
+						},
+						[365306] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+						},
+						[228261] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Karazhan: Upper",
+						},
+						[350489] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = false,
+						},
+						[347807] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[334266] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/5) Hungering Destroyer",
+						},
+						[334522] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/5) Hungering Destroyer",
+						},
+						[338738] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[348064] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[354964] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[351451] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+						},
+						[360458] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/1) Vigilant Guardian",
+							["status"] = 2,
+						},
+						[361608] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+						},
+						[325361] = {
+							["group"] = "Raid/T26 Castle Nathria/4) Xymox",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[6788] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Other/Class",
+						},
+						[334909] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/7) Council of Blood",
+						},
+						[362631] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[291928] = {
+							["status"] = 1,
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Workshop",
+						},
+						[347359] = {
+							["group"] = "Raid/T28 Sanctum of Domination/07) Guardian",
+							["enabled"] = false,
+						},
+						[333377] = {
+							["enabled"] = true,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[326078] = {
+							["group"] = "Raid/T26 Castle Nathria/3) Sun King's Salvation",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[229159] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Karazhan: Upper",
+						},
+						[358619] = {
+							["group"] = "Raid/T28 Sanctum of Domination/07) Guardian",
+							["enabled"] = false,
+						},
+						[371703] = {
+							["enabled"] = false,
+							["group"] = "Raid/Fated",
+						},
+						[346530] = {
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+							["enabled"] = true,
+						},
+						[341746] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/6) Lady Inerva Darkvein",
+							["enabled"] = true,
+						},
+						[335295] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/8) Sludgefist",
+							["enabled"] = true,
+						},
+						[340533] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/4) Xymox",
+						},
+						[338683] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[327503] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/7) Council of Blood",
+						},
+						[365445] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[368639] = {
+							["enabled"] = false,
+							["group"] = "Other/Items",
+							["status"] = 1,
+						},
+						[352833] = {
+							["group"] = "Raid/T28 Sanctum of Domination/07) Guardian",
+							["enabled"] = true,
+						},
+						[358164] = {
+							["status"] = 1,
+							["group"] = "Other/Cov",
+							["enabled"] = false,
+						},
+						[353693] = {
+							["enabled"] = false,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[234143] = {
+							["enabled"] = false,
+							["group"] = "Other/Items",
+						},
+						[359660] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+						},
+						[113942] = {
+							["status"] = 1,
+							["group"] = "Other/Class",
+							["enabled"] = false,
+						},
+						[294929] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Workshop",
+						},
+						[350542] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/03) The Nine",
+							["status"] = 2,
+						},
+						[354365] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[25771] = {
+							["enabled"] = false,
+							["group"] = "Other/Class",
+							["status"] = 1,
+						},
+						[332443] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/8) Sludgefist",
+						},
+						[298124] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Junkyard",
+							["status"] = 2,
+						},
+						[357144] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[350355] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[335300] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/8) Sludgefist",
+						},
+						[357686] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+							["status"] = 2,
+						},
+						[373391] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Dungeons/Affixes",
+						},
+						[352394] = {
+							["enabled"] = false,
+							["group"] = "Raid/T28 Sanctum of Domination/07) Guardian",
+						},
+						[321828] = {
+							["group"] = "Dungeons/Mists of Tirna Scithe",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[353929] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[320227] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Other/Cov",
+						},
+						[360146] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 1,
+							["enabled"] = true,
+						},
+						[360287] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[329298] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/5) Hungering Destroyer",
+						},
+						[362194] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[362383] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/05) Pantheon",
+							["status"] = 1,
+						},
+						[328276] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[361993] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = true,
+						},
+						[352384] = {
+							["group"] = "Raid/T28 Sanctum of Domination/1) Tarragrue",
+							["enabled"] = false,
+						},
+						[335304] = {
+							["group"] = "Raid/T26 Castle Nathria/2) Huntsman Altimor",
+							["enabled"] = true,
+						},
+						[344502] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[361992] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = true,
+						},
+						[162415] = {
+							["group"] = "Dungeons/Iron Docks",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[333913] = {
+							["enabled"] = true,
+							["group"] = "Raid/T26 Castle Nathria/9) Stone Legion Generals",
+						},
+						[362882] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T29 Sepulcher/03) Xymox",
+						},
+						[363538] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/06) Lihuvim",
+						},
+						[227568] = {
+							["group"] = "Dungeons/Karazhan: Lower",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[353957] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[365966] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 1,
+							["enabled"] = true,
+						},
+						[342077] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/1) Shriekwing",
+						},
+						[298259] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Junkyard",
+							["status"] = 2,
+						},
+						[361751] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/04) Dausegne",
+						},
+						[226512] = {
+							["group"] = "Dungeons/Affixes",
+							["enabled"] = true,
+							["status"] = 1,
+						},
+						[359963] = {
+							["group"] = "Raid/T29 Sepulcher/09) Lords_of_Dread",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[362622] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/06) Lihuvim",
+						},
+						[360425] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[357281] = {
+							["group"] = "Dungeons/Tazavesh Gambit",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[370718] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+						},
+						[57723] = {
+							["group"] = "Other/Lust",
+							["enabled"] = false,
+						},
+						[348978] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+						},
+						[368524] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[57724] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Other/Lust",
+						},
+						[362137] = {
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[357928] = {
+							["enabled"] = false,
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+							["status"] = 2,
+						},
+						[335111] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/2) Huntsman Altimor",
+						},
+						[301712] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Junkyard",
+							["status"] = 1,
+						},
+						[327773] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/7) Council of Blood",
+							["enabled"] = true,
+						},
+						[354479] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = true,
+						},
+						[365024] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[340687] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[357029] = {
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[373509] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Affixes",
+						},
+						[364020] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[347704] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[351960] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Tazavesh Streets",
+						},
+						[366379] = {
+							["status"] = 1,
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+						[329181] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = true,
+						},
+						[227508] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Karazhan: Lower",
+						},
+						[350388] = {
+							["group"] = "Raid/T28 Sanctum of Domination/04) Remant",
+							["enabled"] = true,
+						},
+						[335112] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/2) Huntsman Altimor",
+						},
+						[362397] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[350496] = {
+							["group"] = "Raid/T28 Sanctum of Domination/07) Guardian",
+							["enabled"] = true,
+						},
+						[346301] = {
+							["enabled"] = true,
+							["group"] = "Raid/T26 Castle Nathria/1) Shriekwing",
+						},
+						[368913] = {
+							["group"] = "Raid/T29 Sepulcher/08) Anduin",
+							["enabled"] = false,
+						},
+						[345598] = {
+							["group"] = "Dungeons/Tazavesh Streets",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[353162] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[294180] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Workshop",
+						},
+						[352562] = {
+							["status"] = 1,
+							["group"] = "Other/Cov",
+							["enabled"] = false,
+						},
+						[358433] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["status"] = 2,
+							["enabled"] = true,
+						},
+						[325224] = {
+							["group"] = "Dungeons/Mists of Tirna Scithe",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[329951] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+						},
+						[356651] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[350647] = {
+							["group"] = "Raid/T28 Sanctum of Domination/05) Soulrender",
+							["enabled"] = true,
+						},
+						[227404] = {
+							["enabled"] = true,
+							["group"] = "Dungeons/Karazhan: Lower",
+						},
+						[285460] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Dungeons/Mechagon Workshop",
+						},
+						[348987] = {
+							["group"] = "Raid/T28 Sanctum of Domination/05) Soulrender",
+							["enabled"] = true,
+						},
+						[362401] = {
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["enabled"] = false,
+						},
+						[340556] = {
+							["enabled"] = false,
+							["group"] = "Other/Class",
+						},
+						[364701] = {
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+							["status"] = 1,
+							["enabled"] = false,
+						},
+						[292267] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Dungeons/Mechagon Workshop",
+						},
+						[87024] = {
+							["enabled"] = false,
+							["group"] = "Other/Class",
+							["status"] = 1,
+						},
+						[330848] = {
+							["status"] = 2,
+							["group"] = "Raid/T26 Castle Nathria/7) Council of Blood",
+							["enabled"] = true,
+						},
+						[325877] = {
+							["enabled"] = true,
+							["group"] = "Raid/T26 Castle Nathria/3) Sun King's Salvation",
+							["status"] = 2,
+						},
+						[228252] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Dungeons/Karazhan: Lower",
+						},
+						[227777] = {
+							["group"] = "Dungeons/Karazhan: Lower",
+							["status"] = 1,
+							["enabled"] = true,
+						},
+						[346690] = {
+							["enabled"] = false,
+							["group"] = "Raid/T26 Castle Nathria/7) Council of Blood",
+						},
+						[363681] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/06) Lihuvim",
+						},
+						[332585] = {
+							["group"] = "Raid/T26 Castle Nathria/10) Sire Denathrius",
+							["enabled"] = false,
+						},
+						[164504] = {
+							["status"] = 2,
+							["group"] = "Dungeons/Iron Docks",
+							["enabled"] = true,
+						},
+						[230297] = {
+							["enabled"] = true,
+							["status"] = 2,
+							["group"] = "Dungeons/Karazhan: Lower",
+						},
+						[355506] = {
+							["status"] = 2,
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[353354] = {
+							["enabled"] = false,
+							["group"] = "Other/Cov",
+						},
+						[353432] = {
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/08) Fatescribe",
+						},
+						[362803] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/03) Xymox",
+						},
+						[227832] = {
+							["group"] = "Dungeons/Karazhan: Lower",
+							["enabled"] = true,
+							["status"] = 2,
+						},
+						[356472] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = false,
+						},
+						[227742] = {
+							["status"] = 2,
+							["group"] = "Dungeons/Karazhan: Lower",
+							["enabled"] = true,
+						},
+						[348456] = {
+							["group"] = "Raid/T28 Sanctum of Domination/06) Painsmith",
+							["enabled"] = true,
+						},
+						[196917] = {
+							["group"] = "Other/Class",
+							["enabled"] = false,
+						},
+						[347292] = {
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+							["enabled"] = true,
+						},
+						[354231] = {
+							["group"] = "Raid/T28 Sanctum of Domination/05) Soulrender",
+							["enabled"] = false,
+						},
+						[353429] = {
+							["group"] = "Raid/T28 Sanctum of Domination/05) Soulrender",
+							["enabled"] = true,
+						},
+						[363114] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/03) Xymox",
+						},
+						[351117] = {
+							["group"] = "Raid/T28 Sanctum of Domination/10) Sylvanas",
+							["enabled"] = true,
+						},
+						[357298] = {
+							["status"] = 2,
+							["enabled"] = true,
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+						},
+						[352316] = {
+							["enabled"] = false,
+							["group"] = "Raid/T28 Sanctum of Domination/09) KT",
+						},
+						[365219] = {
+							["enabled"] = true,
+							["group"] = "Raid/T29 Sepulcher/11) Jailer",
+							["status"] = 1,
+						},
+						[366195] = {
+							["enabled"] = false,
+							["group"] = "Raid/T29 Sepulcher/10) Rygelon",
+						},
+					},
+				},
+			},
+		},

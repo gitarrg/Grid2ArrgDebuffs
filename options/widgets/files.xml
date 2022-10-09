@@ -1,0 +1,6 @@
+<Ui xmlns='http://www.blizzard.com/wow/ui/'>
+	<Script file='init.lua'/>
+	<Script file='DebuffGroup.lua'/>
+	<Script file='DebuffSettings.lua'/>
+	<Script file='Scripts.lua'/>
+</Ui>
