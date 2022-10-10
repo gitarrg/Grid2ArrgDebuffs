@@ -96,7 +96,12 @@ function ns.widgets.DebuffGroup(key, data)
             name = "Key:",
             width = "full",
             get = function() return key end,
-            disabled = true, -- Read Only
+            set = function(info, value)
+                ns.replace_key(info.handler.key, value)
+                ns.gui_refresh()
+            end,
+            confirm = true,
+            confirmText = "Update Key"
         },
 
         order = {

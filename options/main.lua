@@ -13,10 +13,7 @@ end
 
 
 function ns.gui_refresh()
-
-    -- local db = ArrgDebuffsDB
-    ns.db = ArrgDebuffsDB -- alias the current values
-
+ 
     local options = ns.GUI
     wipe(options)
 

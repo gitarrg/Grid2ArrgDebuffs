@@ -20,7 +20,9 @@ function fix_key(key)
     return new
 end
 
---------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
 
 function ns.widgets.Scripts()
 
@@ -62,8 +64,6 @@ function ns.widgets.Scripts()
                 ns.gui_refresh()
             end,
         },
-
-
     }
     return options
 end

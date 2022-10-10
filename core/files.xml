@@ -1,3 +1,5 @@
 <Ui xmlns='http://www.blizzard.com/wow/ui/'>
 	<Script file='db.lua' />
+	<Script file='addon.lua' />
+	<Script file='core.lua' />
 </Ui>

@@ -2,7 +2,7 @@ local _, ns = ...
 
 -- Global Var
 -- (name needs to match the #SavedVariables mentioned in the .toc)
-ArrgDebuffsDB = {
+ArrgDebuffsDB = ArrgDebuffsDB or {
 
     -- Debuff Configs, keyed by their Spell IDs
     debuffs = {},
@@ -13,6 +13,7 @@ ArrgDebuffsDB = {
         [""] = {
             ["name"] = "Unsorted",
             ["icon"] = 136243,
+            ["order"] = 0,
         },
     },
 }
