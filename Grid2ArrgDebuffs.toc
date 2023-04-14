@@ -2,9 +2,14 @@
 ## Title: Grid2 |cff8080ffArrg Debuffs|r
 ## Notes: Debuff Status and Config for Grid2
 ## LoadOnDemand: 0
-## Dependencies: Grid2, Grid2Options
+## Dependencies: Grid2
 ## Version: v1.0.0
 ## SavedVariables: ArrgDebuffsDB
+
+
+# Ace Libraries
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
 
 
 core\files.xml
