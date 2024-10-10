@@ -18,11 +18,16 @@ options.header = {
 
     fontSize = "large",
     name = function(info)
-        local n = GetSpellInfo(info.handler.spell_id) or "Unknow"
-        return string.format( "%s\n(%d)", n, info.handler.spell_id )
+        local info = C_Spell.GetSpellInfo(info.handler and info.handler.spell_id)
+        if info then
+            return string.format( "%s\n(%d)", info.name, info.spellID)
+        else
+            return ""
+        end
     end,
     image = function(info)
-        return select(3, GetSpellInfo(info.handler.spell_id)), ICON_SIZE, ICON_SIZE
+        local info = C_Spell.GetSpellInfo(info.handler.spell_id)
+        return info.iconID, ICON_SIZE, ICON_SIZE
     end,
     imageWidth = ICON_SIZE,
     imageHeight = ICON_SIZE,
@@ -114,13 +119,45 @@ options.group = {
 
 options.header2 = { type= "header", order=199, name="" }
 
+options.wa_enable = {
+    type = "toggle",
+    order = 201,
+    name = "Enable WA Trigger",
+    get = function(info)
+        return info.handler.data.wa_enable
+    end,
+    set = function(info, value)
+        info.handler.data.wa_enable = value
+    end,
+}
+
+options.wa_tag = {
+    type = "input",
+    order = 202,
+    name = "WA Tag",
+    get = function(info)
+        return info.handler.data.wa_tag
+    end,
+    set = function(info, value)
+        info.handler.data.wa_tag = value
+    end,
+    disabled = function(info)
+        return not info.handler.data.wa_enable
+    end,
+
+}
+
+
+
+options.header3 = { type= "header", order=299, name="" }
+
 
 options.chat_link = {
     type = "execute",
-    order = 200,
+    order = 300,
     name = "Link to Chat",
     func = function(info)
-        local link = GetSpellLink(info.handler.spell_id)
+        local link = C_Spell.GetSpellLink(info.handler.spell_id)
         if not link then return end
 
         local ChatBox = ChatEdit_ChooseBoxForSend()
@@ -135,7 +172,7 @@ options.chat_link = {
 
 options.remove_spell = {
     type = "execute",
-    order = 210,
+    order = 310,
     name = "Remove",
 
     func = function(info)
@@ -154,7 +191,13 @@ options.remove_spell = {
 
 function ns.widgets.DebuffSettings(spell_id, data)
 
-	local spell_name, _, icon = GetSpellInfo(spell_id)
+
+    local info = C_Spell.GetSpellInfo(spell_id)
+    if not info then
+        return nil
+    end
+
+	-- local _, _, icon = GetSpellInfo(spell_id)
 	local iconCoords = { 0.05, 0.95, 0.05, 0.95 }
 
 	-- local icon = READY_CHECK_READY_TEXTURE
@@ -162,10 +205,10 @@ function ns.widgets.DebuffSettings(spell_id, data)
 	-- local suffix = ""
 	-- local title = string.format(mask, icon, spell_name, suffix)
 
-	local title = spell_name or "UNKNOWN"
+	local title = info.name or "UNKNOWN"
 
-	if icon then
-		title = "|T" .. icon .. ":0|t" .. title
+	if info.iconID then
+		title = "|T" .. info.iconID .. ":0|t" .. title
 	end
 
 	local enabled = data.enabled ~= false

@@ -2,7 +2,7 @@
 ## Title: Grid2 |cff8080ffArrg Debuffs|r
 ## Notes: Debuff Status and Config for Grid2
 ## LoadOnDemand: 0
-## Dependencies: Grid2
+## Dependencies: Grid2, WeakAuras
 ## Version: v1.0.0
 ## SavedVariables: ArrgDebuffsDB
 

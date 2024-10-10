@@ -23,23 +23,24 @@ local function update_auras(a, event, unit)
 	local i = 1
 	while true do
 
-		local name, icon, count, type, duration, expiration, _, _, _, spell_id = UnitAura(unit, i, "HARMFUL")
+		local aura = C_UnitAuras.GetDebuffDataByIndex(unit, i, "HARMFUL")
+		-- local name, icon, count, type, duration, expiration, _, _, _, spell_id = C_UnitAuras.GetAuraDataByIndex(unit, i, "HARMFUL")
 		i = i + 1
-		if not name then
+		if not aura then
 			break
 		end
 
-		local config = ns.db.debuffs[spell_id] or {}
+		local config = ns.db.debuffs[aura.spellId] or {}
 		if config.enabled ~= false then
 
 			local state = {
-				spell_id=spell_id,
-				name=name,
-				icon=icon,
-				count=count,
-				type=type,
-				duration=duration or 0,
-				expiration=expiration or 0,
+				spell_id=aura.spellId,
+				name=aura.name,
+				icon=aura.icon,
+				count=aura.applications or 0, -- stacks?
+				type=aura.dispelName,
+				duration=aura.duration or 0,
+				expiration=aura.expirationTime or 0,
 			}
 
 			-- assigned status

@@ -20,7 +20,7 @@ function ns.gui_refresh()
     -------------------------------------
     -- Create Groups
     local groups = {}
-    for key, info in pairs(ns.db.groups) do
+    for key, info in pairs(ns.db.groups or {}) do
         groups[key] = ns.widgets.DebuffGroup(key, info)
     end
     -- sort groups
@@ -33,11 +33,15 @@ function ns.gui_refresh()
 
     -------------------------------------
     -- Create Debuffs
-    for spell_id, info in pairs(ns.db.debuffs) do
+    for spell_id, info in pairs(ns.db.debuffs or {}) do
         local parent = groups[info.group or ""] or groups[""] -- fallback to "unsorted"
         parent = (parent and parent.args) or options -- or fallback to root
+            
+        local settings = ns.widgets.DebuffSettings(spell_id, info)
+        if settings then -- could be invalid spell id
+            parent[tostring(spell_id)] = settings
+        end
 
-        parent[tostring(spell_id)] = ns.widgets.DebuffSettings(spell_id, info)
     end -- for spell id
 
 

@@ -37,6 +37,7 @@ function class:GetIcons(unit, max)
 	local expirations = {}
 	local durations = {}
 	local colors = {}
+	local slots = {}
 
 	local i, j = 1, 1 -- j = number of auras found
 	local name, type
@@ -48,7 +49,7 @@ function class:GetIcons(unit, max)
 	if not status_debuffs then return 0 end
 
 
-	for _, state in pairs(status_debuffs) do
+	for s, state in pairs(status_debuffs) do
 
 		local config = db.debuffs[state.spell_id] or {}
 		if config.enabled ~= false then
@@ -60,6 +61,10 @@ function class:GetIcons(unit, max)
 			durations[j] = state.duration
 			expirations[j] = state.expiration
 			j = j + 1
+
+			-- not sure if this is correct... 
+			slots[j] = s
+
 		end -- if enabled
 
 		if j > max then
@@ -67,7 +72,8 @@ function class:GetIcons(unit, max)
 		end
 	end
 
-	return j-1, icons, counts, expirations, durations, colors
+
+	return j-1, icons, counts, expirations, durations, colors, slots
 end
 
 
